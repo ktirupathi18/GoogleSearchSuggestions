@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.search-result {
+  font-size: 20px;
+  color: #475569;
+}
+.search-containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+}
+.arrow-image {
+  height: 30px;
+}

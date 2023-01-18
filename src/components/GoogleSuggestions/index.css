@@ -1,0 +1,110 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+@media (max-width: 576px) {
+  .card-container {
+    min-width: 80vw;
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 24px;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+  .image {
+    width: 60%;
+    align-self: center;
+    margin-bottom: 24px;
+  }
+  .searchForm {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 4px;
+    background-color: #ffffff;
+    border-radius: 4px;
+  }
+  .search-input {
+    align-self: flex-start;
+    border: hidden;
+    outline: none;
+    background-color: #ffffff;
+    width: 80%;
+    font-size: 20px;
+  }
+  .search-icon {
+    height: 20px;
+  }
+  .search-container {
+    width: 80%;
+    box-shadow: 5px 5px 5px 5px #bfbfbf;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .input {
+    width: 80%;
+    font-size: 20px;
+  }
+}
+@media (min-width: 576px) {
+  .card-container {
+    min-width: 50vw;
+    max-width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 24px;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+  .image {
+    width: 50%;
+    align-self: center;
+    margin-bottom: 24px;
+  }
+  .searchForm {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 8px;
+    background-color: #ffffff;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-radius: 4px;
+  }
+  .search-input {
+    align-self: flex-start;
+    border: hidden;
+    outline: none;
+    background-color: #ffffff;
+    width: 80%;
+    font-size: 20px;
+  }
+  .search-icon {
+    height: 30px;
+  }
+  .search-container {
+    width: 80%;
+    box-shadow: 5px 5px 5px 5px #bfbfbf;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .input {
+    width: 80%;
+    font-size: 20px;
+  }
+}
